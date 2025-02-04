@@ -19,7 +19,7 @@ app-logs:
 
 .PHONY: app-down
 app-down:
-	${DC} -f $(STORAGES_FILE) -f ${BOT_FILE} down
+	${DC} -f $(APP_FILE) -f ${BOT_FILE} down
 
 
 .PHONY: bot
