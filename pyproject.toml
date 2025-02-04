@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "hatiko-techn"
+version = "0.1.0"
+description = ""
+authors = ["Maksim <knyazev.maksim2852@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+aiogram = "^3.17.0"
+pydantic = "^2.10.6"
+pydantic-settings = "^2.7.1"
+fastapi = "^0.115.8"
+uvicorn = "^0.34.0"
+dishka = "^1.4.2"
+aiohttp = "^3.11.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
